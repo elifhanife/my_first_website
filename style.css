@@ -1,0 +1,173 @@
+* {margin:0px; padding:0px;}
+header,section,footer,nav {display:block;}
+body {width:100%;
+      text-align:center;}
+
+	  /*Anasayfa*/
+#main {width:100%; margin:auto; background-image:url('images/wallpaper.jpg');}
+#menu li {display:inline-block; list-style-type:none; padding-left:1%;
+padding-bottom:5%; font-weight:bolder; margin-left:5%; margin-right:3%; font-variant:petite-caps;}
+#menu li a:link {color:#6F0606; text-decoration:none; font-weight:bolder; border:5px dotted; border-left-style:none; border-right-style:none;}
+#menu li a:hover {color:#F36F6F;  box-sizing:border-box; border:3px solid black; font-style:oblique; text-transform:uppercase; text-decoration:none; transition:0.5s;}
+#govde img {border:7px solid; border-color:#F5F5F5; margin-bottom:2%; }
+#yazi { font-style:oblique; font-size:2vw;
+        font-weight:900; color:#F5F5F5; 
+		margin-left:20%; margin-right:20%;
+		margin-bottom:5%;}
+
+.icons { float:right; position:relative; bottom:25px; right:15px;
+        }
+
+#sosyal{font-size:1vw; }
+
+
+
+      /*Hizmetlerimiz*/
+#main2 {width:100%; margin:auto; background-image:url('images/dinner.jpg'); background-repeat:repeat-y;  }
+#ana_makale {width:45%; margin-left:200px; float:left;}
+.paragraf {border:5px solid; border-color:#EB7208;
+           margin-bottom:2%; padding:5%; border-radius:40%; 
+		   font-weight:bold; font-size:1vw;
+		   color:#D55D3F; background-color:#FCEBE1;}
+.basliklar {color:#FFC284; font-size:2vw; font-style:oblique; text-decoration:underline overline;}
+#fotos {width:23%; float:left; margin-left:10%; margin-bottom:3%;}
+#fotos img {border:5px solid; border-color:#FD9960; padding:0; border-radius:20%;}
+
+/* Kurumsal */
+#main3  {width:100%; margin:auto; background-image:url('images/hotel2.jpg'); background-repeat:repeat-y;}
+#ana_makale2 {width:50%; float:left; margin-left:250px;}
+.paragraf2 {border:2px solid; border-left-style:dashed; border-right-style:dashed; border-radius:15%; border-color:#E143A7; padding:2%; background-color:#FFE9FA; color:#830461; font-style:italic; font-weight:bold; font-size:1.5vw;}
+.basliklar2 {color:#C00B7E; font-weight:bolder; font-style:oblique; text-decoration:underline overline; font-size:2vw;}
+#fotos2 {float:left; width:20%; margin-left:8%; margin-bottom:3%;}
+#fotos2 img {border:solid 4px; border-color:#C00B7E; border-radius:5%; margin:1%;}
+
+
+/*Kariyer*/
+#main4 {width:100%; margin:auto; background-image:url('images/wallpaper4.jpg'); background-position:right; background-repeat:repeat-y;}
+#ana_makale3 {width:45%; float:right; margin-right:200px;}
+.paragraf3 {border:solid 4px; border-radius:5%; border-color:#A8020D; padding:2%; color:#A80505; background-color:#FFF0F0; font-size:1.5vw;}
+.basliklar3 {color:#E62936; text-decoration:underline overline; font-style:oblique; font-weight:bold; text-align:left; font-size:2vw;}
+#fotos3 {width:20%; margin-left:8%; margin-bottom:2%;}
+#fotos3 img {border:solid 4px; border-radius:5%; margin:1%; border-color:#D12121;}
+
+/*İletişim*/
+#main5 {width:100%; margin:auto; background-image:url('images/wallpaper5.jpg'); background-position:right; background-repeat:repeat-y;}
+.basliklar4 {color:#28069A; text-decoration:underline overline; font-size:2vw;}
+#info li {color:#1B0075;}
+#cerceve {border:3px solid; border-color:#5D37D8; width:25%; margin:auto; padding:2%; }
+#kose {border:5px solid; border-color:#5D37D8; margin:auto; width:42.5%; padding:0;}
+
+
+
+@media only screen and (max-width:600px) { 
+	/* Hizmetlerimiz Mobil Görünüm */
+	
+#logo {background-color:#FCEBE1;}
+#main2 {width:99%; margin:auto; background-image:url('images/dinner.jpg');}
+#ana_makale {margin-top:20px;width:70%; float:left; 
+             margin-left:70px;}
+.paragraf {border:5px solid; border-color:#EB7208;
+           font-size:2vw; padding:20px;
+           margin-bottom:15px;border-radius:40%; 
+		   font-weight:bold;
+		   color:#D55D3F; background-color:#FCEBE1;}
+.basliklar {color:#FFC284; font-size:4vw; font-style:oblique; 
+            text-decoration:underline overline;}
+#fotos {width:60%; margin:40px 85px;}
+#fotos img {border:5px solid; border-color:#FD9960; padding:0;
+            border-radius:20%;}
+#sosyal {text-align:center;}
+#sosyal p { font-size:2.5vw; color:#F5F5F5; }	
+.icons {float:right;}
+.icons a {color:#F5F5F5;}
+
+	
+	/* Navigasyon Bar */
+#menu {margin-top:10px;}
+#menu li { display:block;
+           text-align:center;
+		   list-style-type:none; 
+           font-weight:bolder; 
+           font-variant:petite-caps;}
+#menu li a:link {color:#FFFFFF; text-decoration:none; font-weight:bolder; 
+         border:5px dotted; 
+         border-left-style:none; 
+		 border-right-style:none;}
+#menu li a:hover {color:#F36F6F;  box-sizing:border-box; 
+          padding:5px; border:5px solid; border-color:#656060; font-style:oblique; 
+          text-transform:uppercase; text-decoration:none; 
+		  background-color:#FCEBE1;transition:0.5s;}
+#menu li a:active {color:#9E0909;  box-sizing:border-box; 
+          padding:5px; border:5px solid; border-color:#656060; font-style:oblique; 
+          text-transform:uppercase; text-decoration:none; 
+		  background-color:#9EC787;}
+
+        /*Anasayfa Mobil Görünüm */
+#main {width:100%; margin:auto; background-image:url('images/wallpaper.jpg');}
+#govde img {width:70%;border:7px solid; border-color:#F5F5F5; 
+            margin-bottom:2%; }
+#yazi { font-style:oblique; 
+        font-weight:900; 
+		color:#F5F5F5;
+		margin-left:20%;
+		margin-right:20%;
+		font-size:3.5vw;
+		margin-bottom:10%;}
+
+/*Kurumsal Mobil Görünüm*/
+#main3  {width:100%; margin:auto;
+         background-image:url('images/hotel2.jpg');
+		 }
+
+#ana_makale2 { width:70%; margin-left:80px; margin-top:30px;}
+.paragraf2   { 
+                border:2px solid; border-left-style:dashed; 
+                border-right-style:dashed; border-radius:15%; 
+				border-color:#E143A7; padding:2%; 
+				background-color:#FFE9FA; color:#830461;
+				font-style:italic; font-weight:bold;
+				font-size:2.5vw;}
+.basliklar2 {color:#C00B7E; font-weight:bolder; 
+              font-style:oblique; 
+			  text-decoration:underline overline; 
+			  font-size:4vw;}
+#fotos2 { width:50%;  margin:40px 110px; margin-top:25px;}
+#fotos2 img { border:solid 4px; border-color:#C00B7E;
+             border-radius:5%; margin:10px;}
+
+/*Kariyer Mobil Görünüm*/
+#main4 {width:100%; margin:auto; 
+        background-image:url('images/wallpaper4.jpg');}
+
+#ana_makale3 {width:70%; float:left; margin-left:80px;
+              margin-bottom:40px; margin-top:30px; }
+.paragraf3 {border:solid 4px; border-radius:5%; 
+                border-color:#A8020D; padding:2%; color:#A80505; 
+				background-color:#FFF0F0; font-size:3vw;}
+.basliklar3 {color:#E62936; text-decoration:underline overline;
+             font-style:oblique; font-weight:bold; text-align:left;
+			 font-size:4vw;}
+#fotos3 {margin-left:120px; width:50%; margin-bottom:50px; }
+#fotos3 img {
+	         border:solid 4px; border-radius:5%; 
+             margin:1%; border-color:#D12121;}
+
+
+/*İletişim Mobil Görünüm*/
+#main5 {width:100%; margin:auto;
+        background-image:url('images/wallpaper5.jpg'); 
+		}
+.basliklar4 {color:#28069A; 
+             text-decoration:underline overline; font-size:6vw;}
+#info li {color:#1B0075; list-style-type:none; font-size:3vw;}
+#cerceve {border:3px solid; border-color:#5D37D8; width:40%;
+          margin:auto; padding:2%; background-color:#B3E6F6; }
+#kose {border:5px solid; border-color:#5D37D8; margin-left:40px; 
+       width:83%; padding:0;}
+	   
+#kose iframe {width:400px; height:200px;}
+
+
+}
+
+
